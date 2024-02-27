@@ -1,11 +1,88 @@
-body
-{
-    background-color: rgb(172, 172, 172);
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #070c17, #1e2b4d); /* Degradado azul a dorado */
+  }
+  
+  .menu {
+    background-color: rgba(50, 4, 86, 0.473);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .menuItem {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menuItem:hover {
+    background-color: #080808;
+    scale: 1.25;
+  }
+  /* Añade estos estilos al archivo styles.css */
+
+  h1 {
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Opcional: Estilo adicional para resaltar el título en hover */
+  h1:hover {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  /* Añade estos estilos al archivo styles.css */
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    scale: 0.7;
 }
-.atributo
-{
-    background-color: rgb(128, 128, 232);
+  
+.centered-image {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
 }
-.elemento{
-    background-color: rgb(101, 98, 98);
-}
+/* Añade estos estilos al archivo styles.css */
+
+/* Añade estos estilos al archivo styles.css */
+
+.center-container-small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; /* Altura ajustada según tus necesidades */
+  }
+  
+  .centered-title {
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .centered-title:hover {
+    color: #ffffff;
+    scale: 1.1;
+    cursor: pointer;
+  }
+  
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Opcional: Cambiar color al pasar el mouse sobre los enlaces */
+  a:hover {
+    color: #ddd;
+  }
+  
